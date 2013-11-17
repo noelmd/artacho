@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Artacho / Blog</title>
+        <title>Artacho / Contacto</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -48,13 +48,13 @@
                                         <a href="index.html">Inicio</a>
                                     </li>
                                     <li class="">
-                                        <a href="bufete.html">El bufete</a>
+                                        <a href="perito.html">El perito</a>
                                     </li>
                                     <li class="">
                                         <a href="servicios.html">Servicios</a>
                                     </li>
                                     <li class="">
-                                        <a href="equipo.html">Nuestro equipo</a>
+                                        <a href="equipo.html">Equipo</a>
                                     </li>
                                     <li class="">
                                         <a href="glosario.html">Glosario</a>
@@ -62,9 +62,15 @@
                                     <li class="">
                                         <a href="blog.html">Blog</a>
                                     </li>
-                                    <li class="active">
-                                        <a href="#">Contacto</a>
-                                    </li>
+                                    <li class="dropdown active" id="menu1">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">
+                                      Más información
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="responde.html">El perito responde</a></li>
+                                      <li><a href="contacto.html">Contacto</a></li>
+                                    </ul>
+                                  </li>
                                 </ul>
                             </div>
                         </div>
@@ -77,7 +83,7 @@
                 <div class="featurette main">
                     <h1 class="featurette-heading"><a name="indice"></a>Contacto. <span class="muted">¿Hablamos?</span></h1>
                     <p class="lead">
-                        Infórmese sin compromiso sobre nuestros servicios.
+                        Infórmese sin compromiso sobre mis servicios.
                     </p>
                 </div>
                 
@@ -85,32 +91,39 @@
 
                 <!-- START THE FEATURETTES -->
 
-
-                <form class="formulario">
+                <div class="row">
+                    <div class="span6">
+                        <form class="formulario">
                     <div class="control-group">
-                        <label class="control-label" for="nombre">Nombre y apellidos</label>
+                        <label class="control-label" for="nombre">Nombre</label>
                         <div class="controls">
-                            <input type="text" id="nombre" placeholder="" class="span4">
+                            <input type="text" id="nombre" placeholder="" class="span6">
                         </div>
                     </div>
                     <div class="control-group">
                         <label class="control-label" for="email">Email</label>
                         <div class="controls">
-                            <input type="text" id="email" placeholder="" class="span4">
+                            <input type="text" id="email" placeholder="" class="span6">
                         </div>
                     </div>
                     <div class="control-group">
                         <label class="control-label" for="email">Mensaje</label>
                         <div class="controls">
-                            <textarea rows="5" cols="10" class=" span4"></textarea>
+                            <textarea rows="5" cols="10" class=" span6"></textarea>
                         </div>
                     </div>
                     <div class="control-group">
                         <div class="controls">
-                            <button type="submit" class="btn btn-large">Enviar</button>
+                            <button type="submit" class="btn btn-large btn-danger">Enviar consulta</button>
                         </div>
                     </div>
                 </form>
+                    </div>
+                    <div class="span5 offset1">
+                        <img src="img/contacto.jpg" alt="Contacto" class="hidden-phone" />
+                    </div>
+                </div>
+                
             </div>
 
             <div id="push"></div>
@@ -122,30 +135,22 @@
                     <div class="span4">
                         <h3>Contacto</h3>
                         <p>
-                            <span class="label label-inverse">Email</span> info@artacho.com<br/>
-                            <span class="label label-inverse">Tel/Fax</span> 976 123 456<br/>
-                            <span class="label label-inverse">Móvil</span> 600 000 123
+                            <span class="label label-inverse">Email</span> <a href="mailto:info@artacho.eu">info@artacho.eu</a><br/>
+                            <span class="label label-inverse">Teléf.</span> 976 755 827<br/>
+                            <span class="label label-inverse">Móvil</span> 686 936 170
                         </p>
                     </div><!-- /.span4 -->
                     <div class="span4">
                         <h3>Horario</h3>
                         <p>
-                            <strong>De lunes a viernes</strong><br/>de 10 a 14h y de 16 a 19h.
-                        </p>
-                        <p>
+                            <strong>De lunes a viernes</strong><br/>de 10 a 14h y de 16 a 19h.<br/>
                             <strong>Sábados</strong> de 10 a 14h.
                         </p>
 
                     </div><!-- /.span4 --> 
                     <div class="span4">
                         <h3>Más información</h3>
-                        <p><a href="contacto.html">Infórmese sin compromiso</a> sobre nuestros servicios.</p>
-                        <form class="form-search">
-                            <div class="input-append">
-                                <input type="text" class="span2 search-query">
-                                <button type="submit" class="btn">Buscar</button>
-                            </div>
-                        </form>
+                        <p><strong><a href="contacto.html">Contacta con Luis Artacho</a></strong>.<br/>Infórmate sin compromiso sobre<br/>los diferentes servicios periciales.</p>
                     </div><!-- /.span4 -->
                 </div><!-- /.row -->
                 <p class="credit">

@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Artacho / Pericias caligráficas</title>
+        <title>Artacho / Perito caligráfo</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -48,13 +48,13 @@
                                         <a href="index.html">Inicio</a>
                                     </li>
                                     <li class="">
-                                        <a href="bufete.html">El bufete</a>
+                                        <a href="perito.html">El perito</a>
                                     </li>
                                     <li class="">
                                         <a href="servicios.html">Servicios</a>
                                     </li>
                                     <li class="">
-                                        <a href="equipo.html">Nuestro equipo</a>
+                                        <a href="equipo.html">Equipo</a>
                                     </li>
                                     <li class="">
                                         <a href="glosario.html">Glosario</a>
@@ -62,9 +62,15 @@
                                     <li class="">
                                         <a href="blog.html">Blog</a>
                                     </li>
-                                    <li class="">
-                                        <a href="contacto.html">Contacto</a>
-                                    </li>
+                                    <li class="dropdown" id="menu1">
+                                    <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">
+                                      Más información
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="responde.html">El perito responde</a></li>
+                                      <li><a href="contacto.html">Contacto</a></li>
+                                    </ul>
+                                  </li>
                                 </ul>
                             </div>
                         </div>
@@ -72,20 +78,19 @@
                 </div>
             </header>
 
-            <div class="container"></div>
 
             <!-- Carousel
             ================================================== -->
-            <div id="myCarousel" class="carousel slide">
+            <div id="myCarousel" class="carousel slide hidden-phone">
                 <div class="container">
                     <div class="carousel-inner">
                         <div class="item active">
                             <img src="img/artacho-banner.png" alt="">
                             <div class="container">
                                 <div class="carousel-caption">
-                                    <h1>"Más de 20 años de experiencia a su servicio."</h1>
+                                    <h1>Toda mi experiencia,<br/>a tu servicio.</h1>
                                     <p class="lead">Luis Artacho</p>
-                                    <a class="btn btn-large btn-danger" href="servicios.html">Conozca nuestros servicios</a>
+                                    <a class="btn btn-large btn-danger" href="servicios.html">Conoce mis servicios</a>
                                 </div>
                             </div>
                         </div>
@@ -127,23 +132,31 @@
                     <div class="span4">
                         <img src="img/brujula.jpg">
                         <h2><span>Artacho es </span>experiencia</h2>
-                        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-                        <p><a class="acceso" href="bufete.html">El bufete &raquo;</a></p>
+                        <p><strong>Pericias Artacho</strong> es una firma dedicada a la <strong>pericia caligráfica</strong> y la documentoscopia.
+                        </p>
+                        <p>
+                            Trabaja en el <strong>asesoramiento</strong> a despachos de juristas, particulares y empresas.
+                        </p>
+                        
+                        <p><a class="acceso" href="servicios.html">Servicios periciales &raquo;</a></p>
                     </div><!-- /.span4 -->
-                    <div class="span4">
-                        <img src="img/paraguas.jpg">
-                        <h2><span>Un bufete</span> a su servicio</h2>
-                        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                        <p><a class="acceso" href="servicios.html">Nuestros servicios &raquo;</a></p>
-                    </div><!-- /.span4 -->
+                    
                     <div class="span4">
                         <img src="img/lapiz.jpg">
-                        <h2><span>El perito</span> caligráfico</h2>
+                        <h2><span>El perito</span> calígrafo</h2>
                         <p>
-                            <strong>Analiza, dictamina, e informa</strong> sobre la autenticidad de la escritura, principalmente manuscritos firmas y rúbricas,
-                            de los documentos ya sean impresos o mecanografiados,  y otros como son los productos amparados por patentes o marcas registradas.
+                            Para Pericias Artacho, lo más importante son <strong>nuestros clientes</strong>.
+                            Es por eso, que les proporciona una <strong>asistencia de calidad</strong> y <strong>excelencia profesional</strong>.
                         </p>
-                        <p><a class="acceso" href="glosario.html">Glosario de términos &raquo;</a></p>
+                        <p>
+                            Gracias a la <strong>experiencia</strong>, Pericias Artacho hace que sus clientes perciban un <strong>servicio único y de alto valor añadido</strong>.
+                        </p>
+                        <p><a class="acceso" href="perito.html">El perito &raquo;</a></p>
+                    </div><!-- /.span4 --><div class="span4">
+                        <img src="img/paraguas.jpg">
+                        <h2><span>El método</span> Artacho</h2>
+                        <p><strong>Analiza, dictamina, e informa </strong>sobre la <strong>autenticidad de la escritura</strong>, principalmente <strong>manuscritos firmas y rúbricas</strong>, de documentos ya sean impresos o mecanografiados, y otros como son los <strong>productos amparados por patentes o marcas registradas</strong>.</p>
+                        <p><a class="acceso" href="equipo.html">Equipo pericial &raquo;</a></p>
                     </div><!-- /.span4 -->
                 </div><!-- /.row -->
 
@@ -157,30 +170,22 @@
                     <div class="span4">
                         <h3>Contacto</h3>
                         <p>
-                            <span class="label label-inverse">Email</span> info@artacho.com<br/>
-                            <span class="label label-inverse">Tel/Fax</span> 976 123 456<br/>
-                            <span class="label label-inverse">Móvil</span> 600 000 123
+                            <span class="label label-inverse">Email</span> <a href="mailto:info@artacho.eu">info@artacho.eu</a><br/>
+                            <span class="label label-inverse">Teléf.</span> 976 755 827<br/>
+                            <span class="label label-inverse">Móvil</span> 686 936 170
                         </p>
                     </div><!-- /.span4 -->
                     <div class="span4">
                         <h3>Horario</h3>
                         <p>
-                            <strong>De lunes a viernes</strong><br/>de 10 a 14h y de 16 a 19h.
-                        </p>
-                        <p>
+                            <strong>De lunes a viernes</strong><br/>de 10 a 14h y de 16 a 19h.<br/>
                             <strong>Sábados</strong> de 10 a 14h.
                         </p>
 
                     </div><!-- /.span4 --> 
                     <div class="span4">
                         <h3>Más información</h3>
-                        <p><a href="contacto.html">Infórmese sin compromiso</a> sobre nuestros servicios.</p>
-                        <form class="form-search">
-                            <div class="input-append">
-                                <input type="text" class="span2 search-query">
-                                <button type="submit" class="btn">Buscar</button>
-                            </div>
-                        </form>
+                        <p><strong><a href="contacto.html">Contacta con Luis Artacho</a></strong>.<br/>Infórmate sin compromiso sobre<br/>los diferentes servicios periciales.</p>
                     </div><!-- /.span4 -->
                 </div><!-- /.row -->
                 <p class="credit">
