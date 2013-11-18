@@ -104,12 +104,13 @@ strong{
 
 
 .carousel-caption {
-    background-color: transparent;
-    position: static;
-    max-width: 40%;
-    padding: 0 0 0 100px;
-    margin-top: 180px;
-    text-align: right;
+background-color: transparent;
+position: static;
+max-width: 45%;
+padding: 0 0 0 100px;
+margin-top: 200px;
+text-align: right;
+margin-left: -5%
 }
 
 
@@ -318,8 +319,10 @@ margin-bottom: 20px;
 
 p.fecha{
 margin-top: 30px;
-font-size: 80%;
+
 font-weight: bold;
+line-height: 2em;
+font-size: 14px;
 }
 
 p.fecha span{
